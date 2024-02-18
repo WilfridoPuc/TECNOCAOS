@@ -1,0 +1,134 @@
+body{
+    background:url(fondo.png)no-repeat center center fixed;
+    background-size:cover;
+    color: black;
+}
+#header{
+    background: #000000;
+    height: 70px;
+}
+.logo{
+    float: left;
+}
+.menu{
+    font-family: "ArIaL", serif;
+    text-align:end;
+}
+.menu li a{
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+}
+.menu li{
+    display: inline-block;
+    padding: 10px 20px 10px 20px; 
+}
+.menu li a:hover{
+    color: rgb(47, 85, 255);
+}
+h1{
+    font-family: "Segoe UI";
+}
+#tienda{
+
+    text-align: center;
+    background-size: cover;
+}
+#nosotros{
+    color: white;
+    background:#141414f1;
+    text-align: center;
+    height: 535px;
+    width: auto;
+    padding: 5em;
+    margin:auto;
+
+}
+.mision{
+    font-size: 150%;
+    height: 10%;
+    width: 48%;
+    float: left;
+}
+.vision{
+    font-size: 150%;
+    height: 10%;
+    width: 48%;
+    float: right;
+}
+#servicios{
+    color: black;
+    background: #f0f0f0f1;
+    text-align: center;
+    height: 535px;
+    width: auto;
+    padding: 5em;
+    margin:auto;
+}
+.servicio{
+    font-size: 150%;
+    height: 10%;
+    width: 33%;
+    float:left;
+}
+.venta{
+    font-size: 150%;
+    height: 10%;
+    width: 33%;
+    float:right;
+}
+.tecnico{
+    font-size: 150%;
+    height: 10%;
+    width: 33%;
+    float: right;
+}
+#preguntas{
+    color: white;
+    background: #585858f1;
+    text-align: center;
+    height: 535px;
+    width:auto;
+    padding: 5em;
+    margin:auto;
+}
+.datos{
+    width: 48%;
+    float: left;
+}
+.mensaje{
+    width: 48%;
+    float: right;
+}
+.datos input {
+    font-size:100%;
+    padding: 2em;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    height: 5%;
+    width: 90%;
+}
+.mensaje input{
+    font-size: 100%;
+    padding: 2em;
+    margin: 0.5em;
+    border-radius: 1em;
+    height: 35%;
+    width: 90%;
+}
+.mensaje button{
+    height: 4%;
+    width: 90%;
+}
+#contactanos{
+    color: white;
+    height: 455px;
+    width: auto;
+    padding: 5em;
+    margin:auto;
+}
+footer{
+    color: white;
+    background: #3f3f3f;
+    text-align: center;
+    padding: 10px 10px 10px 10px;   
+}

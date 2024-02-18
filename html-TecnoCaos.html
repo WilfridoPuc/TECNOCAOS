@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+            <meta charset="utf-8">
+            <meta name="autor" content="Abdiel Cen, Luis Chuc, Oscar Cauich y Wilfrido Puc"/>
+            <meta name="copyright" content="TecnoCaos"/> 
+            <meta name="description" content="TecnoCaos servicios, venta de equipo y servicio tecnico">
+            <meta name="keywods" content="computadora, tecnologia, servicio tecnico, venta, redes"/>
+            <meta name= "robots" content= "index"/>
+            <title>TecnoCaos</title>
+            <link rel="icon" type="image/jpg" href="icono.png">
+            <link rel="stylesheet" type="text/css" href="css-TecnoCaos.css"/>
+            <script src="JS-TecnoCaos.js"></script>            
+    </HEAD>    
+    <BODY>   
+
+        <HEADER id="header">
+            <img class= "logo" src="logo.png" height="70px">
+            <ul class="menu">  
+                <li><a href="#NOSOTROS1">NOSOTROS</a></li>
+                <!--   <li><a href="#">provedor</a></li>-->
+                <li><a href="#SERVICIOS1">SERVICIOS</a></li>
+                <li><a href="#PREGUNTAS1">PREGUNTAS</a></li>
+                <li><a href="#CONTACTANOS1">CONTACTANOS</a></li>
+            </ul>     
+        </HEADER>
+        
+        <DIV id="tienda">
+            <img src="inicio.jpg" width="100%"> 
+        </DIV>
+
+        <DIV id="nosotros">
+            <A id="NOSOTROS1"><H1>NOSOTROS.</H1></A>
+            <div class="mision">
+                <H2>Misión:</H2>
+                <P>Somos una empresa nacida en Cancún Quintana Roo que busca satisfacer las necesidades tecnológicas de nuestros clientes, ofreciéndoles soluciones a la vanguardia con servicios de cómputo, desde el software hasta nivel hardware, siempre otorgando confianza, seguridad y calidad en cada uno de nuestros servicios con la atención personalizada que los usuarios merecen.</P>
+            </div>
+            <div class="vision">
+                <H2>Visión:</H2>
+                <P>Ser la empresa de tecnología más reconocida de la península de la ciudad por satisfacer las necesidades, brindar soluciones en tecnología y servicios de vanguardia en software y hardware para cada uno de nuestros clientes de manera oportuna.</P>     
+            </div>
+             </DIV>
+
+        <DIV id="servicios">
+            <A id="SERVICIOS1"><H1>SERVICIOS.</H1></A>
+            <div class="servicio">
+                <H2>Servicios de cómputo.</H2>
+                <UL TYPE= square>
+                    <LI>Reparación de computadoras de escritorio y laptops.</LI>
+                    <UL>
+                        <LI>Nivel software: formateo y recuperación de datos.</LI>
+                        <LI>Nivel hardware: reparación de placas madre y cambio de componentes.</LI>
+                    </UL>
+                </UL>
+            </div>
+            <div class="venta">
+                <H2>Venta de productos.</H2>
+                <UL TYPE= square>
+                    <LI>Computadoras/laptops de amplia gama.</LI>
+                    <LI>Componentes, hardware y periféricos.</LI>
+                </UL>
+            </div>
+            <div class="tecnico">
+                <H2>Asesoramiento técnico a distancia.</H2>
+                <UL TYPE= square>
+                    <LI>Desarrollo de redes y sistemas capaces de resolver proyectos según las necesidades de cada cliente.</LI>
+                </UL>
+            </div>   
+        </DIV>
+
+
+
+
+
+        
+        <div id="preguntas">
+            <A id="PREGUNTAS1"><H1>PREGUNTAS.</H1></A>
+            <i>Dejanos tus consultas. </i>
+            <p></p>
+            <form action="php-tecnocaos.php" method="POST" id="action">
+                <div class="datos">
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre"><br>
+                    <input type="text" name="email" id="email" placeholder="Email"><br>
+                    <input type="text" name="telefono" id="telefono" placeholder="Telefono"><br>
+                    
+                </div>
+                <div class="mensaje">
+                    <input type="text" name="mensaje" id="mensaje" placeholder="Mensaje"><br>
+                    <button type="button" onclick="getData()">Enviar</button>
+                </div>
+            </form>
+        </div>
+
+
+
+
+        <DIV id="contactanos">
+            <A id="CONTACTANOS1"><H1><CENTER>CONTÁCTANOS.</CENTER></H1></A>
+            <LI><B>📞TELÉFONO.</B>
+                <P>998-233-1125</P></LI>
+            <LI><B>📧EMAIL.</B>
+                <P>TecnoCaos@uqroo.mx</P></LI>
+            <LI><B>📍UBICACIÓN.</B>
+                <P>Avenida Chetumal SM 260 Mz. 21 y 16 Lt. 1-01, Fraccionamiento Prado Norte, 77519 Cancún, Q.R.</P></LI>
+            <LI><B>🕙HORARIO.</B>
+                <P>Lunes a sábados de 10:00 a 21:00 hrs.</P></LI>
+        </DIV>
+        
+        <FOOTER>
+            <P>© Copyright 2022. Todos los derechos reservados a <STRONG>TecnoCaos</STRONG>.</P>
+        </FOOTER>       
+    </BODY>
+<HTML>
+    
