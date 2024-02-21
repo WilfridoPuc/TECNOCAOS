@@ -2,6 +2,7 @@ body{
     background:url(fondo.png)no-repeat center center fixed;
     background-size:cover;
     color: black;
+    font-family: 'Oleo Script Swash Caps', cursive;
 }
 #header{
     background: #000000;
