@@ -112,12 +112,13 @@ h1{
     padding: 2em;
     margin: 0.5em;
     border-radius: 1em;
-    height: 35%;
+    height: 164px;
     width: 90%;
 }
 .mensaje button{
-    height: 4%;
-    width: 90%;
+    height: 50px;
+    width: 45%;
+    color: #201e1e;
 }
 #contactanos{
     color: white;
